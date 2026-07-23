@@ -1,199 +1,544 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>인문 철학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: #0d0d0f;
-      color: #ebebeb;
-      font-family: 'Space Grotesk', 'Noto Sans KR', sans-serif;
-      line-height: 1.6;
-      padding: 32px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>합정 노래방 초보 안내 — 처음 방문자를 위한 조건별 선택 안내</title>
+    <meta name="description" content="합정 지역 노래방을 처음 방문하는 분들을 위한 실용적 안내. 시설 유형, 이용 팁, 조건별 추천을 통해 자신에게 맞는 곳을 쉽게 찾으세요.">
+    <meta name="keywords" content="합정 노래방, 노래방 추천, 초보 노래방, 합정 노래방 초보, 노래방 이용 안내">
+    <link rel="canonical" href="https://hapjeong-info-note.best-seocho-karaoke.xyz/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="합정 노래방 초보 안내 — 처음 방문자를 위한 조건별 선택 안내">
+    <meta property="og:description" content="합정 지역 노래방을 처음 방문하는 분들을 위한 실용적 안내. 시설 유형, 이용 팁, 조건별 추천을 통해 자신에게 맞는 곳을 쉽게 찾으세요.">
+    <meta property="og:url" content="https://hapjeong-info-note.best-seocho-karaoke.xyz/">
+    <meta property="og:site_name" content="합정 노래방 초보 안내">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="합정 노래방 초보 안내 — 처음 방문자를 위한 조건별 선택 안내">
+    <meta name="twitter:description" content="합정 지역 노래방을 처음 방문하는 분들을 위한 실용적 안내. 시설 유형, 이용 팁, 조건별 추천을 통해 자신에게 맞는 곳을 쉽게 찾으세요.">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-burgundy">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Noto+Serif+KR:wght@400;700&display=swap');
+        
+        :root {
+            --primary: #120808;
+            --secondary: #fdf5f5;
+            --accent: #6b1a1a;
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Noto Serif KR', serif;
+            --spacing-dense: 16px;
+            --spacing-card: 24px;
+            --spacing-section: 40px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: var(--font-body);
+            color: var(--primary);
+            background-color: var(--secondary);
+            line-height: 1.6;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: var(--font-display);
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: var(--spacing-card);
+        }
+        
+        h2 {
+            font-size: clamp(1.8rem, 3vw, 2.5rem);
+            margin-bottom: var(--spacing-card);
+            border-bottom: 1px solid var(--accent);
+            padding-bottom: var(--spacing-dense);
+        }
+        
+        h3 {
+            font-size: clamp(1.3rem, 2vw, 1.8rem);
+            margin-bottom: var(--spacing-dense);
+        }
+        
+        p {
+            margin-bottom: var(--spacing-card);
+            font-size: 1.1rem;
+        }
+        
+        .n-nav-8o58::first-letter {
+            float: left;
+            font-size: 4.5rem;
+            line-height: 0.8;
+            padding-right: 0.2em;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        
+        .r-txt-jfmm {
+            font-variant: small-caps;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+        }
+        
+        /* Layout */
+        .m-txt-7y22 {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-card);
+        }
+        
+        .t-box-zoul {
+            padding: var(--spacing-section) 0;
+        }
+        
+        .m-body-gals {
+            display: grid;
+            gap: var(--spacing-dense);
+        }
+        
+        /* Hero */
+        .k-grid-rzy8 {
+            background-color: var(--primary);
+            color: var(--secondary);
+            position: relative;
+            padding: calc(var(--spacing-section) * 2) var(--spacing-card);
+            overflow: hidden;
+        }
+        
+        .k-grid-rzy8::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(rgba(253, 245, 245, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(253, 245, 245, 0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+            pointer-events: none;
+        }
+        
+        .k-grid-rzy8-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+        }
+        
+        .k-grid-rzy8 h1 {
+            color: var(--secondary);
+            border: none;
+            padding: 0;
+            margin-bottom: var(--spacing-card);
+        }
+        
+        .k-grid-rzy8 .r-txt-jfmm {
+            color: var(--accent);
+            display: block;
+            margin-bottom: var(--spacing-dense);
+            font-size: 1rem;
+        }
+        
+        /* Cards */
+        .q-nav-fs7l {
+            border: 1px solid var(--accent);
+            padding: var(--spacing-card);
+            position: relative;
+            background-color: var(--secondary);
+        }
+        
+        .q-nav-fs7l::before,
+        .q-nav-fs7l::after {
+            content: '';
+            position: absolute;
+            border: 1px solid var(--accent);
+        }
+        
+        .q-nav-fs7l::before {
+            top: 8px;
+            left: 8px;
+            right: -8px;
+            bottom: -8px;
+        }
+        
+        .q-nav-fs7l::after {
+            top: -4px;
+            left: -4px;
+            right: 4px;
+            bottom: 4px;
+            z-index: -1;
+        }
+        
+        /* Timeline */
+        .t-side-nbhk {
+            list-style: none;
+            position: relative;
+            padding-left: var(--spacing-card);
+        }
+        
+        .t-side-nbhk::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background-color: var(--accent);
+        }
+        
+        .t-side-nbhk-item {
+            margin-bottom: var(--spacing-card);
+            position: relative;
+        }
+        
+        .t-side-nbhk-item::before {
+            content: '';
+            position: absolute;
+            left: calc(var(--spacing-card) * -1 - 4px);
+            top: 8px;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background-color: var(--accent);
+        }
+        
+        .v-foot-zskx {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-right: var(--spacing-dense);
+            color: var(--accent);
+        }
+        
+        /* FAQ */
+        .n-card-f9m8-item {
+            border-bottom: 1px solid rgba(107, 26, 26, 0.2);
+            padding: var(--spacing-card) 0;
+        }
+        
+        .n-card-f9m8-question {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: var(--spacing-dense);
+            color: var(--accent);
+        }
+        
+        /* Author Bio */
+        .n-top-nvrq {
+            border-top: 2px solid var(--accent);
+            margin-top: var(--spacing-section);
+            padding-top: var(--spacing-card);
+        }
+        
+        .n-top-nvrq-name {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: var(--spacing-dense);
+        }
+        
+        /* Footer */
+        .v-item-v26p {
+            background-color: var(--primary);
+            color: var(--secondary);
+            padding: var(--spacing-card) 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        
+        /* Navigation */
+        .n-body-idnf {
+            background-color: var(--primary);
+            color: var(--secondary);
+            padding: var(--spacing-dense) var(--spacing-card);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .n-body-idnf-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .q-body-h3hh {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+        
+        .n-body-idnf-links {
+            display: flex;
+            gap: var(--spacing-card);
+        }
+        
+        .n-body-idnf-links a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+        
+        .r-head-xje6 {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--secondary);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .n-body-idnf-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: var(--primary);
+                flex-direction: column;
+                padding: var(--spacing-card);
+                gap: var(--spacing-dense);
+            }
+            
+            .n-body-idnf-links.active {
+                display: flex;
+            }
+            
+            .r-head-xje6 {
+                display: block;
+            }
+            
+            .k-grid-rzy8 {
+                padding: var(--spacing-section) var(--spacing-card);
+            }
+            
+            .t-box-zoul {
+                padding: var(--spacing-card) 0;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "합정 노래방 초보 안내",
+        "description": "합정 지역 노래방을 처음 방문하는 분들을 위한 실용적 안내. 시설 유형, 이용 팁, 조건별 추천을 통해 자신에게 맞는 곳을 쉽게 찾으세요.",
+        "url": "https://hapjeong-info-note.best-seocho-karaoke.xyz/",
+        "author": {
+            "@type": "Person",
+            "name": "박지훈",
+            "description": "합정 지역의 문화와 시설 정보를 7년간 정리해온 로컬 정보 큐레이터"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "합정 노래방 초보 안내"
+        }
     }
-    .wrapper {
-      max-width: 1000px;
-      margin: 0 auto;
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "합정 지역 노래방은 어떤 종류가 있나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "합정 지역에는 일반 노래방부터 프라이빗룸이 갖춰진 고급형, 그리고 최신 음향시설을 자랑하는 전문점까지 다양하게 분포되어 있습니다. 주요 상권을 기준으로 찾아보면 자신에게 맞는 분위기를更容易 찾을 수 있어요."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "노래방 예약은 어떻게 하나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "대부분의 합정 노래방은 전화 예약을 기본으로 하며, 일부 매장은 온라인 예약 시스템을 운영하고 있습니다. 주말이나 저녁 시간에는 미리 예약하는 것이 좋고, 평일 낮 시간에는 비교적 여유롭게 이용할 수 있습니다."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "초보자가 이용하기 어려운 점이 있나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "최근 시설들은 조작이 간편화되어 있어 큰 어려움은 없습니다. 다만 주문 방식이나 계산 절차가 조금 다를 수 있으니, 입장 시 직원에게 간단히 안내를 요청하면 친절하게 도와줍니다."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "주변에 주차 공간이 있나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "합정 지역은 대중교통이 편리하지만, 일부 매장은 자체 주차장을 갖추고 있거나 인근 공영주차장을 안내해줍니다. 자가용 이용 시 미리 확인하는 것이 좋습니다."
+                }
+            }
+        ]
     }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 60px;
-    }
-    .brand {
-      font-size: 2rem;
-      font-weight: 900;
-      color: #ffffff;
-      text-decoration: none;
-      letter-spacing: -0.05em;
-    }
-    nav { display: flex; gap: 24px; }
-    nav a {
-      color: #888888;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    nav a:hover { color: #f43f5e; }
-    main { margin-bottom: 80px; }
-    .label {
-      font-size: 0.75rem;
-      font-family: monospace;
-      color: #f43f5e;
-      font-weight: bold;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      line-height: 1.15;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      margin-bottom: 40px;
-    }
-    .article-body {
-      font-size: 1.15rem;
-      color: #cccccc;
-      font-weight: 400;
-      max-width: 780px;
-    }
-    .article-body p { margin-bottom: 24px; }
-    .juice-link {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 900;
-      box-shadow: inset 0 -6px 0 #f43f5e;
-      transition: all 0.15s ease-in-out;
-    }
-    .juice-link:hover {
-      box-shadow: inset 0 -24px 0 #f43f5e;
-      color: #ffffff;
-    }
-    .archive-section {
-      margin-top: 80px;
-    }
-    .section-title {
-      font-size: 1rem;
-      font-family: monospace;
-      color: #888888;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 32px;
-    }
-    .archive-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .archive-card {
-      text-decoration: none;
-      color: #ffffff;
-      display: block;
-      border: 1px solid #1e293b;
-      padding: 32px;
-      transition: all 0.2s ease;
-    }
-    .archive-card:hover {
-      border-color: #f43f5e;
-      background-color: #0f172a;
-    }
-    .archive-card h3 {
-      font-size: 1.4rem;
-      font-weight: 900;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
-    }
-    .archive-card p {
-      color: #888888;
-      font-size: 0.95rem;
-    }
-    footer {
-      border-top: 1px solid #1e293b;
-      padding-top: 32px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      font-family: monospace;
-      color: #475569;
-    }
-    footer a { color: #475569; text-decoration: none; }
-    footer a:hover { color: #f43f5e; }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      h1 { font-size: 2.2rem; }
-      .archive-card { padding: 20px; }
-      .archive-card h3 { font-size: 1.2rem; }
-    }
-  </style>
+    </script>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="/" class="brand">STREET.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="label">// BRUTALIST GRID SYSTEM</div>
-      <h1>인문 철학 지식 저널 및 아카이브</h1>
-      <div class="article-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>인문 철학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="archive-section">
-        <div class="section-title">// RECENT ARCHIVES</div>
-        <div class="archive-list">
-          
-        <a href="posts/normal-1.html" class="archive-card">
-          <h3>바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h3>
-          <p>네덜란드의 고독한 렌즈 가공 철학자 스피노자의 주저 에티카에서 피력된 코나투스(자신의 존재를 유지하려는 영속적 본성 노력) 개념을 동물에게 투영해 볼 때, 인간 중심적 관점에서 해...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="archive-card">
-          <h3>질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h3>
-          <p>시작과 끝이 규정되지 않고 끊임없이 파편적으로 연결되며 영토를 가로지르는 들뢰즈의 리좀 모델을 격자형 대도시가 아닌 오랜 유기적 골목길의 공간 미학에 적용해 볼 때, 규칙적 구획이...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="archive-card">
-          <h3>중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h3>
-          <p>중세 대철학자 토마스 아퀴나스가 주창했던 천사들의 언어(Speech of Angels) 형이상학은 물리적 육체와 공간의 장벽이 없는 순수한 지성적 존재들이 어떻게 공간을 왜곡하고 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="archive-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 화곡 셔츠룸 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="archive-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 화곡 셔츠룸 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
+    <nav class="n-body-idnf">
+        <div class="n-body-idnf-content">
+            <a href="/" class="q-body-h3hh">합정 노래방 초보 안내</a>
+            <button class="r-head-xje6" onclick="toggleMenu()">☰</button>
+            <div class="n-body-idnf-links" id="navLinks">
+                <a href="#selection">선택 기준</a>
+                <a href="#checklist">이용 전 확인사항</a>
+                <a href="#suitability">조건별 적합성</a>
+                <a href="#faq">자주 묻는 질문</a>
+            </div>
         </div>
-      </div>
+    </nav>
+
+    <header class="k-grid-rzy8">
+        <div class="k-grid-rzy8-content">
+            <span class="r-txt-jfmm">합정 지역 안내서</span>
+            <h1>합정 노래방 초보 안내<br><small style="font-size: 0.5em; font-weight: 400; display: block; margin-top: 0.5em;">처음 방문자를 위한 조건별 선택 안내</small></h1>
+            <p class="n-nav-8o58">합정은 다양한 분위기의 노래방이 밀집한 곳입니다. 처음 방문하시는 분들은 선택의 기준이 무엇인지, 어떤 점을 미리 확인해야 하는지 감이 잘 오지 않을 수 있습니다. 이 안내서는 그 고민을 덜어드리기 위해 기본적인 정보와 실용적인 팁을 정리한 것입니다.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="selection" class="t-box-zoul">
+            <div class="m-txt-7y22">
+                <h2>선택 기준</h2>
+                <div class="m-body-gals" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+                    <article class="q-nav-fs7l">
+                        <h3>시설 유형 파악하기</h3>
+                        <p>합정의 노래방은 일반적인 방식부터 프라이빗 룸, 고음향 시설 등으로 나뉩니다. 혼자서 조용히 노래를 즐기고 싶은지, 친구들과 함께 시끄럽게 놀고 싶은지에 따라 적합한 곳이 달라집니다.</p>
+                        <p style="font-size: 0.95rem; color: var(--accent); margin-bottom: 0;">핵심: 분위기와 인원수를 먼저 생각하세요.</p>
+                    </article>
+                    <article class="q-nav-fs7l">
+                        <h3>위치와 접근성</h3>
+                        <p>주요 상권(합정역 1·2번 출구 부근)에 모여 있는 곳이 많아 도보로 이동하기 편리합니다. 하지만 골목 안쪽에 숨어 있는 매장도 분위기가 좋아 추천됩니다.</p>
+                        <p style="font-size: 0.95rem; color: var(--accent); margin-bottom: 0;">핵심: 지도 앱으로 정확한 위치를 미리 확인하세요.</p>
+                    </article>
+                    <article class="q-nav-fs7l">
+                        <h3>가격대 확인</h3>
+                        <p>이용 시간에 따라 요금이 달라지며, 기본 1시간 이용료가 천차만별입니다. 사전에 웹사이트나 전화로 요금표를 확인하면 예상치 못한 지출을 줄일 수 있습니다.</p>
+                        <p style="font-size: 0.95rem; color: var(--accent); margin-bottom: 0;">핵심: "1시간 기본 요금"과 "추가 시간 요금"을 꼭 비교하세요.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="checklist" class="t-box-zoul" style="background-color: var(--primary); color: var(--secondary);">
+            <div class="m-txt-7y22">
+                <h2 style="border-color: var(--secondary);">이용 전 확인사항</h2>
+                <div class="m-body-gals" style="grid-template-columns: 1fr 1fr; gap: 24px;">
+                    <div>
+                        <h3 style="color: var(--secondary);">예약 및 방문</h3>
+                        <ul style="list-style-type: square; padding-left: 1.5em; line-height: 2;">
+                            <li>대부분 전화 예약이 기본입니다.</li>
+                            <li>주말·저녁 시간은 예약 필수에 가깝습니다.</li>
+                            <li>방문 시간을 정확히 알려주세요.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--secondary);">현장 이용 시</h3>
+                        <ul style="list-style-type: square; padding-left: 1.5em; line-height: 2;">
+                            <li>직원의 안내에 따라 방을 배정받습니다.</li>
+                            <li>기기 조작이 어렵다면 도움을 요청하세요.</li>
+                            <li>정리 시간을 감안해 여유 있게 퇴실하세요.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="suitability" class="t-box-zoul">
+            <div class="m-txt-7y22">
+                <h2>조건별 적합성</h2>
+                <p class="r-txt-jfmm" style="margin-bottom: 24px;">상황에 맞는 선택 가이드</p>
+                <ol class="t-side-nbhk">
+                    <li class="t-side-nbhk-item">
+                        <div>
+                            <span class="v-foot-zskx">I.</span>
+                            <strong>혼자서 조용히 이용하고 싶을 때</strong>
+                            <p>소형 룸이 잘 갖춰진 매장이 적합합니다. 프라이버시가 보장되는 곳을 찾아보세요.</p>
+                        </div>
+                    </li>
+                    <li class="t-side-nbhk-item">
+                        <div>
+                            <span class="v-foot-zskx">II.</span>
+                            <strong>친구들과 함께 방문할 때</strong>
+                            <p>대형 룸과 최신 음향시설이 있는 곳이 좋습니다. 최소 2~3시간을 생각하고 예약하는 것이 일반적입니다.</p>
+                        </div>
+                    </li>
+                    <li class="t-side-nbhk-item">
+                        <div>
+                            <span class="v-foot-zskx">III.</span>
+                            <strong>주변 관광 후 가볍게 이용할 때</strong>
+                            <p>상권 입구에 위치한 매장이 접근성이 좋습니다. 예약 없이도 이용 가능한 곳이 많지만, 가능성은 낮습니다.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="faq" class="t-box-zoul" style="background-color: var(--secondary); border-top: 1px solid rgba(107, 26, 26, 0.1);">
+            <div class="m-txt-7y22">
+                <h2>자주 묻는 질문</h2>
+                <div class="n-card-f9m8-item">
+                    <p class="n-card-f9m8-question">합정 지역 노래방은 어떤 종류가 있나요?</p>
+                    <p>합정 지역에는 일반 노래방부터 프라이빗룸이 갖춰진 고급형, 그리고 최신 음향시설을 자랑하는 전문점까지 다양하게 분포되어 있습니다. 주요 상권을 기준으로 찾아보면 자신에게 맞는 분위기를 쉽게 찾을 수 있어요.</p>
+                </div>
+                <div class="n-card-f9m8-item">
+                    <p class="n-card-f9m8-question">노래방 예약은 어떻게 하나요?</p>
+                    <p>대부분의 합정 노래방은 전화 예약을 기본으로 하며, 일부 매장은 온라인 예약 시스템을 운영하고 있습니다. 주말이나 저녁 시간에는 미리 예약하는 것이 좋고, 평일 낮 시간에는 비교적 여유롭게 이용할 수 있습니다.</p>
+                </div>
+                <div class="n-card-f9m8-item">
+                    <p class="n-card-f9m8-question">초보자가 이용하기 어려운 점이 있나요?</p>
+                    <p>최근 시설들은 조작이 간편화되어 있어 큰 어려움은 없습니다. 다만 주문 방식이나 계산 절차가 조금 다를 수 있으니, 입장 시 직원에게 간단히 안내를 요청하면 친절하게 도와줍니다.</p>
+                </div>
+                <div class="n-card-f9m8-item">
+                    <p class="n-card-f9m8-question">주변에 주차 공간이 있나요?</p>
+                    <p>합정 지역은 대중교통이 편리하지만, 일부 매장은 자체 주차장을 갖추고 있거나 인근 공영주차장을 안내해줍니다. 자가용 이용 시 미리 확인하는 것이 좋습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="t-box-zoul">
+            <div class="m-txt-7y22">
+                <div class="n-top-nvrq">
+                    <p class="n-top-nvrq-name">박지훈</p>
+                    <p>합정 지역의 문화와 시설 정보를 7년간 정리해온 로컬 정보 큐레이터입니다. 이 안내서는 실제 방문 경험과 여러 매장의 일반적인 특징을 바탕으로 작성되었습니다.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-      <div>&copy; 2026 STREET.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
+
+    <footer class="v-item-v26p">
+        <div class="m-txt-7y22">
+            <p>© 2024 합정 노래방 초보 안내. 모든 정보는 일반적인 안내 목적이며, 실제 이용 시 매장의 정책에 따라 달라질 수 있습니다.</p>
+        </div>
     </footer>
-  </div>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
